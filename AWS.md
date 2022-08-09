@@ -23,33 +23,33 @@ with it on every level. If I have a server that I've stood up in my closet, inte
 
 5) When I remove the ability for me to touch and see something, when the infrastructure becomes virtual, the way that I work with that infrastructure has to change a bit. Instead of physically managing my infrastructure, I now logically manage it through the AWS application programming interface or API. So now when I create, delete or change any AWS resource, whether it's a virtual server or a storage system for employee photos, I use API calls to AWS to do that. You can make these API calls in several ways but the three main ways we're going to talk about are the AWS Management Console, the AWS Command Line Interface and the AWS Software Development Kits or SDKs.
 
-6) Shared Responsibility model in AWS
+# Shared Responsibility model in AWS
 
-# AWS Responsibility                                                   
+## AWS Responsibility                                                   
 
-## Infrastructure services
+### Infrastructure services
 AWS manages the infrastructure and foundation services.               
 
 
-## Container services
+### Container services
 AWS manages the infrastructure and foundation services, operating system, and application platform.
 
 
-## Abstracted services
+### Abstracted services
 AWS operates the infrastructure layer, operating system, and platforms, as well as server-side encryption and data protection.
 
 
-# Customer Responsibility                                                   
+## Customer Responsibility                                                   
 
-## Infrastructure services
+### Infrastructure services
 You control the operating system and application platform, as well as encrypting, protecting, and managing customer data           
 
 
-## Container services
+### Container services
 You are responsible for customer data, encrypting that data, and protecting it through network firewalls and backups
 
 
-## Abstracted services
+### Abstracted services
 You are responsible for managing customer data and protecting it through client-side encryption.
 
 
